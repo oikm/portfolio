@@ -210,3 +210,71 @@ header li a:hover {
   display: inline;
   color: #fff;
 }
+
+
+/* Responsive */
+
+
+@media(max-width: 600px) {
+  .container {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .last-names {
+    display: none;
+  }
+
+  .projects {
+    padding: 0;
+  }
+
+  .projects h2 {
+    padding-left: 5px;;
+  }
+
+  .web-box {
+    min-height: 270px;
+    background-color: #C3C3C3;
+    margin-bottom: 15px;
+  }
+
+  .box-text {
+    width: 40%;
+    padding: 10px;
+    float: left;
+  }
+
+  .box-thumb {
+    float: right;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px 15px 0 0;
+    border-radius: 5px;
+  }
+
+  .box-thumb img {
+    width: 150px;
+    border-radius: 5px;
+  }
+
+  .designs {
+    min-height: 580px;
+    padding: 0;
+  }
+
+  .designs h2 {
+    padding-left: 5px;
+  }
+
+  .images {
+    padding-left: 5px;
+  }
+
+  .images img {
+    width: 30%;
+    padding: 2px;
+  }
+
+}
